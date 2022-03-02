@@ -15,6 +15,18 @@ h1 {
     color: #603A03;
 }
 
+h2 {
+    font-family: Titulo;
+    font-size: 20px;
+    color: #fff;
+}
+
+h3 {
+    font-family: Titulo;
+    font-size: 20px;
+    color: #603A03;
+}
+
 body {
     background-image: url(../images/fundo.jpg);
     background-size: cover;
@@ -90,6 +102,50 @@ body {
 	background-image: url(../images/disparo.png);
 }
 
+#explosao1,
+#explosao2 {
+    width: 15px;
+    height: 87px;
+    position: absolute;
+}
+
+#explosao3 {
+    width: 44px;
+    height: 51px;
+    position: absolute;
+}
+
+#placar {
+    width: 450px;
+    height: 50px;
+    position: absolute;
+    left: 5px;
+    top: 590px;
+}
+
+#energia {
+	width: 140px;
+	height: 38px;
+	position: absolute;
+	left: 750px;
+	top: 7px;	
+}
+
+#fim {
+    width: 350px;
+    height: 200px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+#reinicia {
+    margin-top: 40px;
+}
+
 .anima1 {
 	background-image:url(../images/apache.png);
 	animation:play .5s steps(2) infinite;
@@ -113,4 +169,16 @@ body {
 @keyframes play2 {
 	from {background-position:0px;}
 	to {background-position:-528px;}
+}
+
+.anima4 {
+    width: 44px;
+    height: 51px;
+    background-image: url(../images/amigo_morte.png);
+    animation: play3 .5s steps(7) infinite;
+}
+
+@keyframes play3 {
+    from {background-position: 0px;}
+    to {background-position: -308px;}
 }
