@@ -83,6 +83,13 @@ body {
     background-image: url(../images/amigo.png);
 }
 
+#disparo {
+	width: 50px;
+	height: 8px;
+	position: absolute;
+	background-image: url(../images/disparo.png);
+}
+
 .anima1 {
 	background-image:url(../images/apache.png);
 	animation:play .5s steps(2) infinite;
